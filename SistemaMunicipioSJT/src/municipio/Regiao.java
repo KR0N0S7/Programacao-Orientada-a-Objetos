@@ -64,8 +64,11 @@ public class Regiao {
 	public FuncionarioFiscalizador getFuncionarioFiscalizadorAt(int i) {
 		return fiscais.get(i);
 	}
-	
-	public void registrarProva() {
-		
+
+	@Override
+	public String toString() {
+		return "Regiao [Nome: " + nome + "]";
 	}
+	
+	
 }
