@@ -20,6 +20,18 @@ public class Problema {
 		this.data = data;
 	}
 
+	public Municipe getMunicipe() {	return municipe;}
+	public void setMunicipe(Municipe municipe) {	this.municipe = municipe;	}
+
+	public Regiao getRegiao() {		return regiao;	}
+	public void setRegiao(Regiao regiao) {	this.regiao = regiao;	}
+
+	public String getEndereco() {	return endereco;	}
+	public void setEndereco(String endereco) {	this.endereco = endereco;	}
+
+	public LocalDate getData() {	return data;	}
+	public void setData(LocalDate data) {	this.data = data;	}
+
 	@Override
 	public String toString() {
 		return "Problema [Municipe: " + municipe + ", Regiao: " + regiao + ", Endereco: " + endereco + ", Data: " + data

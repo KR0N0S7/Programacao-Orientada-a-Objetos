@@ -13,6 +13,16 @@ public class Prova {
 		this.data = data;
 		this.regiao = regiao;
 	}
+
+	public String getFuncionarioResponsavel() {	return funcionarioResponsavel;	}
+	public void setFuncionarioResponsavel(String funcionarioResponsavel) {	this.funcionarioResponsavel = funcionarioResponsavel;	}
+
+	public LocalDate getData() {	return data;	}
+	public void setData(LocalDate data) {	this.data = data;	}
+	
+	public Regiao getRegiao() {	return regiao;	}	
+	public void setRegiao(Regiao regiao) {	this.regiao = regiao;	}
+	
 	
 	
 }

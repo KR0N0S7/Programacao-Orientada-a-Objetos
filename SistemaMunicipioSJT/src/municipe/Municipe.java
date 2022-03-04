@@ -76,7 +76,4 @@ public class Municipe {
 		return "Municipe [Nome: " + nome + ", CPF:" + cpf + ", Endereco: " + endereco + "]";
 	}
 	
-	public void cadastrarRecurso() {
-		
-	}
 }
