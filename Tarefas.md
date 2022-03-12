@@ -55,3 +55,29 @@ Requisitos
 
 (...)
 Em resumo, o sistema deve permitir o registro de munícipes, reclamações e o acompanhamento do andamento das reclamações.
+
+
+---------------------------------------------
+
+Tarefa 3 - Folha de pagamento
+
+Uma empresa deseja criar um sistema simples orientado a objetos para gestão de folha de pagamento.
+Atualmente, ela trabalha com 3 tipos de funcionários:
+* Horistas: recebem um valor mensal referente a valor/hora * horas trabalhadas;
+* Mensalistas: recebem um valor correspondente ao cargo (podem ser inventados cargos e valores);
+* Empreitada: recebem um valor único referente a uma empreitada (p.ex.: uma obra de reforma).
+
+A empresa informou que podem ser criados novos tipos de relações de trabalho e cálculos de salário no futuro.
+Você deve implementar este programa assumindo que:
+* Deve ser possível cadastrar diversos funcionários destes tipos em diversos departamentos diferentes;
+* Deve ser possível gerar uma folha de pagamento como a seguinte:
+
+CPF Nome Departamento Tipo Salário Memória de cálculo
+012.345.678-90 João da Silva RH Horista R$ 2.300,00 23 (horas) * 100 (valor/hora)
+112.345.678-90 Maria da Silva RH Horista R$ 2.500,00 25 (horas) * 100 (valor/hora)
+112.345.678-90 Marcia da Silva RH Mensalista R$ 5.000,00 Salário de programador pleno
+112.345.678-90 Sérgio da Silva RH Empreitada R$ 2.000,00 Conserto de banheiro
+112.345.678-90 Alex da Silva Administração Empreitada R$ 2.500,00 Conserto de banheiro
+112.345.678-90 Marco da Silva Administração Mensalista R$ 7.500,00 Salário de gerente pleno
+
+Utilize herança e polimorfismo (faça também sem e sinta a diferença).
